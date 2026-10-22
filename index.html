@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050816">
+  <meta name="description" content="Portafolio futurista de Guerson Quispe: inteligencia artificial, ciencia de datos y desarrollo de software.">
+  <title>GUERSON QUISPE | AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Ir al inicio"><span class="brand-mark">GQ</span><span>GUERSON<span class="muted">.SYS</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#about">Perfil</a><a href="#systems">Sistemas</a><a href="#projects">Proyectos</a><a href="#contact">Contacto</a>
+    </nav>
+    <div class="system-status"><span class="status-dot"></span> SISTEMA EN LÍNEA</div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> PORTAFOLIO DIGITAL / 2026</p>
+        <h1>DISEÑANDO<br><span class="gradient-text">EL FUTURO</span><span class="cursor">_</span></h1>
+        <p class="hero-subtitle">Soy <strong>Guerson Quispe</strong>. Exploro la intersección entre inteligencia artificial, ciencia de datos y desarrollo de software para convertir ideas en soluciones útiles.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">EXPLORAR PROYECTOS <span>↗</span></a>
+          <a class="button button-ghost" href="#about">CONOCER MI PERFIL</a>
+        </div>
+        <div class="hero-metrics">
+          <div><span class="metric-value" data-count="03">03</span><span class="metric-label">ÁREAS DE INTERÉS</span></div>
+          <div><span class="metric-value">∞</span><span class="metric-label">IDEAS POR EXPLORAR</span></div>
+          <div><span class="metric-value">PE</span><span class="metric-label">PUNO, PERÚ</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustración animada de núcleo de inteligencia artificial">
+        <div class="hud hud-top">NEURAL CORE <span>v.2.06</span></div>
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="core"><div class="core-inner">GQ</div></div>
+        <div class="node node-a"></div><div class="node node-b"></div><div class="node node-c"></div>
+        <div class="hud hud-bottom"><span class="pulse-dot"></span> AI CORE // ACTIVE <span>98.7%</span></div>
+        <div class="visual-grid"></div>
+      </div>
+      <div class="hero-bottom-label"><span>SCROLL PARA EXPLORAR</span><span class="scroll-line"></span><span>01 — 04</span></div>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><span class="section-index">01</span><div><p class="eyebrow">IDENTIDAD DEL SISTEMA</p><h2>Perfil <span class="gradient-text">del operador</span></h2></div></div>
+      <div class="about-grid">
+        <article class="panel about-main">
+          <div class="panel-corner"></div><p class="panel-kicker">[ SOBRE MÍ ]</p>
+          <h3>Curiosidad convertida en código.</h3>
+          <p>Me interesa crear soluciones tecnológicas con programación, estadística y análisis de datos. Actualmente sigo aprendiendo y construyendo proyectos para fortalecer mis habilidades y llevar mis ideas a la práctica.</p>
+          <p class="quote">“Cada línea de código es un paso más hacia una idea que todavía no existe.”</p>
+          <div class="tag-row"><span>APRENDER</span><span>EXPERIMENTAR</span><span>CONSTRUIR</span></div>
+        </article>
+        <article class="panel terminal-panel">
+          <div class="terminal-head"><span class="terminal-dots"><i></i><i></i><i></i></span><span>profile.config</span><span>•••</span></div>
+          <div class="terminal-body">
+            <p><span class="code-blue">const</span> developer = {</p>
+            <p class="indent">nombre: <span class="code-green">"Guerson Quispe"</span>,</p>
+            <p class="indent">enfoque: [</p>
+            <p class="indent2"><span class="code-green">"Inteligencia Artificial"</span>,</p>
+            <p class="indent2"><span class="code-green">"Ciencia de Datos"</span>,</p>
+            <p class="indent2"><span class="code-green">"Software"</span></p>
+            <p class="indent">],</p>
+            <p class="indent">mentalidad: <span class="code-green">"learn_and_build"</span></p>
+            <p>};<span class="blink">_</span></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="systems">
+      <div class="section-heading"><span class="section-index">02</span><div><p class="eyebrow">MÓDULOS DISPONIBLES</p><h2>Mi <span class="gradient-text">stack tecnológico</span></h2></div></div>
+      <div class="systems-grid">
+        <button class="system-card" data-detail="Python: automatización, análisis de datos y desarrollo de aplicaciones."><span class="system-icon">Py</span><span class="system-title">Python</span><span class="system-type">PROGRAMACIÓN</span><span class="card-arrow">↗</span></button>
+        <button class="system-card" data-detail="R: análisis estadístico, modelamiento y visualización de datos."><span class="system-icon">R</span><span class="system-title">R / Estadística</span><span class="system-type">DATA SCIENCE</span><span class="card-arrow">↗</span></button>
+        <button class="system-card" data-detail="SQL y bases de datos: consultar, organizar y analizar información estructurada."><span class="system-icon">DB</span><span class="system-title">SQL / Datos</span><span class="system-type">BASES DE DATOS</span><span class="card-arrow">↗</span></button>
+        <button class="system-card" data-detail="OpenCV y visión por computadora: explorar imágenes y aplicaciones visuales con Python."><span class="system-icon">CV</span><span class="system-title">Computer Vision</span><span class="system-type">INTELIGENCIA ARTIFICIAL</span><span class="card-arrow">↗</span></button>
+        <button class="system-card" data-detail="Git y GitHub: control de versiones, documentación y publicación de proyectos."><span class="system-icon">⌘</span><span class="system-title">Git / GitHub</span><span class="system-type">WORKFLOW</span><span class="card-arrow">↗</span></button>
+        <button class="system-card" data-detail="IoT y nube: dispositivos conectados, MQTT, Node-RED, InfluxDB y dashboards."><span class="system-icon">◉</span><span class="system-title">IoT / Cloud</span><span class="system-type">SISTEMAS CONECTADOS</span><span class="card-arrow">↗</span></button>
+      </div>
+      <div class="detail-console" id="detailConsole"><span class="console-prompt">SYSTEM MESSAGE //</span> Selecciona un módulo para ver sus detalles.</div>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading"><span class="section-index">03</span><div><p class="eyebrow">ARCHIVO DE CONSTRUCCIONES</p><h2>Proyectos <span class="gradient-text">destacados</span></h2></div></div>
+      <div class="project-grid">
+        <article class="project-card project-large"><div class="project-art art-cloud"><span class="art-ring"></span><span class="art-symbol">⌁</span><span class="art-label">CONNECTED / CLOUD</span></div><div class="project-content"><div class="project-meta"><span>01 / IOT</span><span class="project-state">EN DESARROLLO</span></div><h3>Monitor en la nube</h3><p>Concepto de monitoreo de datos IoT mediante mensajería MQTT, almacenamiento en la nube y paneles de visualización.</p><div class="chips"><span>MQTT</span><span>Node-RED</span><span>InfluxDB</span><span>Grafana</span></div><a class="project-link" href="https://github.com/gersonqm?tab=repositories">VER REPOSITORIOS <span>↗</span></a></div></article>
+        <article class="project-card"><div class="project-art art-vision"><span class="vision-eye">◎</span><span class="art-label">VISION / AI</span></div><div class="project-content"><div class="project-meta"><span>02 / COMPUTER VISION</span><span class="project-state">EXPLORACIÓN</span></div><h3>Reconocimiento visual</h3><p>Exploración de procesamiento de imágenes y aplicaciones de visión por computadora con Python.</p><div class="chips"><span>Python</span><span>OpenCV</span></div><a class="project-link" href="https://github.com/gersonqm?tab=repositories">VER REPOSITORIOS <span>↗</span></a></div></article>
+        <article class="project-card"><div class="project-art art-data"><div class="data-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="art-label">DATA / ANALYTICS</span></div><div class="project-content"><div class="project-meta"><span>03 / DATA SCIENCE</span><span class="project-state">APRENDIZAJE</span></div><h3>Análisis estadístico</h3><p>Modelamiento, análisis exploratorio y visualización para comprender datos y comunicar resultados.</p><div class="chips"><span>R</span><span>Python</span><span>Estadística</span></div><a class="project-link" href="https://github.com/gersonqm?tab=repositories">VER REPOSITORIOS <span>↗</span></a></div></article>
+      </div>
+      <p class="projects-note">Los enlaces llevan a tus repositorios. Cuando publiques cada proyecto, reemplazaremos estos enlaces por sus direcciones específicas.</p>
+    </section>
+
+    <section class="section-wrap section-block" id="contact">
+      <div class="contact-panel">
+        <div><p class="eyebrow">04 / ESTABLECER CONEXIÓN</p><h2>¿Creamos algo <span class="gradient-text">extraordinario?</span></h2><p>Estoy explorando, aprendiendo y construyendo. Puedes conocer mis repositorios y seguir el progreso de mis proyectos.</p></div>
+        <a class="button button-primary" href="https://github.com/gersonqm" target="_blank" rel="noreferrer">CONECTAR EN GITHUB ↗</a>
+        <div class="contact-grid"><span><i></i> PUNO, PERÚ</span><span><i></i> AI / DATA / SOFTWARE</span><span><i></i> OPEN TO LEARNING</span></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">GQ</span><span>GUERSON<span class="muted">.SYS</span></span></a><span>DISEÑADO PARA EXPLORAR EL FUTURO</span><a href="#home">VOLVER ARRIBA ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
